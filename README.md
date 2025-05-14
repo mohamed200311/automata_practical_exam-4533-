@@ -7,3 +7,24 @@ Run it in VS using C# language to coding two tasks ,
 
 use dynamic binary strings from user to test two codes . 
 
+
+DFA :
+
+      | 0  | 1
+1) Q0 | Q0 | Q1  
+2) Q1 | Q2 | Q1
+3) Q2 | Q0 | Q3
+4) Q3 | Q3 | Q3
+
+string "01101" is accepted . 
+
+
+
+Turing Machine :
+        | 0 | 1 | B
+   1)Q0 | Q0 | Q1|  A
+   2) Q1 | Q2 | Q0 | R
+   3) Q2 | Q1 | Q2 | R
+
+   string "11" is accepted
+
