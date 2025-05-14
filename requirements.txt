@@ -1,0 +1,4 @@
+1- Download Visual Studio . 
+2- install .Net Packages .
+3- install NUnit.Framework [using it in Unit Test] .
+
